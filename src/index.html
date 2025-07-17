@@ -3,9 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Webpack Template</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Image carousel</title>
 </head>
 <body>
-  <h1>Hello, Webpack!</h1>
+
+  <div id="slider">
+
+    <div id="slides">
+      <img class="carImg" src="car1.jpg" alt="car1">
+      <img class="carImg" src="car2.jpg" alt="car2">
+      <img class="carImg" src="car3.jpg" alt="car3">
+      <img class="carImg" src="car4.jpg" alt="car4">
+    </div>
+
+    <div id="buttonsDiv">
+      <button id="prevSlide" onclick="prevSlide()">&#10094</button>
+      <button id="nextSlide" onclick="nextSlide()">&#10095</button>
+    </div>
+
+    <div id="balls">
+    </div>
+    
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>

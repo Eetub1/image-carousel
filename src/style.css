@@ -1,4 +1,48 @@
 body {
   background-color: #f0f0f0;
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
+
+#buttonsDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#slider {
+  display: inline-block;
+}
+
+.carImg {
+  width: 300px;
+  aspect-ratio: 1/1;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+#balls {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.navBall {
+  width: 20px;
+  aspect-ratio: 1/1;
+  border-radius: 12px;
+}
+
+.selected {
+  background-color: black;
+}
+
+
